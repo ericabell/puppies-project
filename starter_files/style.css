@@ -23,43 +23,32 @@ body > div {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 5px;
   border-style: solid;
-  border-color: gray;
+  border-color: #808080;
   border-width: 1px;
 }
 
 #site_header {
   background-color: #ff8523;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
 nav > a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   border-style: solid;
   border-width: 1px;
-  border-color: white;
+  border-color: #ffffff;
   border-radius: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 4px 20px;
 }
 
 #page_content {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: white;
+  padding: 20px;
+  background-color: #ffffff;
 }
 
 #page_content section {
@@ -86,10 +75,6 @@ h3 {
 }
 
 #page_content table {
-  /*border-width: 2px;
-  border-style: solid;
-  border-color: #1fabe5;
-  border-radius: 5px;*/
   border-collapse:collapse;
   border:1px solid #FF0000;
 }
@@ -100,15 +85,11 @@ h3 {
 }
 
 thead td {
-  color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 5px;
+  color: #ffffff;
+  padding: 5px 10px;
   border-style: solid;
-  border-color: gray;
+  border-color: #808080;
   border-width: 1px;
-  margin: -2px;
 }
 
 tbody tr {
@@ -118,14 +99,10 @@ tbody tr {
 }
 
 tbody td {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 5px;
+  padding: 5px 10px;
   border-style: solid;
   border-color: #1fabe5;
   border-width: 1px;
-  margin: -2px;
 }
 
 tbody img {
@@ -135,39 +112,31 @@ tbody img {
 }
 
 form {
-  /*border-style: solid;
-  border-color: gray;*/
   border-radius: 5px;
   background-color: #EEEEEE;
   overflow: auto;
 }
 
+/* every div has padding (except left) */
 form div {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 20px;
 }
 
 .name {
   background-color: #ff8523;
   border-radius: 5px;
-  color: white;
-  padding-left: 20px;
+  color: #ffffff;
+  padding-left: 20px; /* first and last name need padding */
 }
 
-.city_container {
-  padding-left: 0px;
-}
-
+/* target the input fields */
 input[type="text"] {
     height: 40px;
     width: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 textarea {
@@ -178,10 +147,7 @@ textarea {
 .submit_container input {
   background-color: #1fabe5;
   border-radius: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: white;
+  padding: 10px 20px;
+  color: #ffffff;
   text-transform: uppercase;
 }
