@@ -36,7 +36,7 @@ body > div {
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -146,26 +146,33 @@ form div {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-  padding-left: 20px;
-  margin: 0px;
-}
-
-.name {
-  background-color: #ff8523;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  border-radius: 5px;
-  color: white;
 }
 
-.name input {
-  height: 30px;
+.name {
+  background-color: #ff8523;
+  border-radius: 5px;
+  color: white;
+  padding-left: 20px;
+}
+
+.city_container {
+  padding-left: 0px;
+}
+
+input[type="text"] {
+    height: 40px;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 textarea {
   width: 100%;
+  font-size: 1em;
 }
 
 .submit_container input {
